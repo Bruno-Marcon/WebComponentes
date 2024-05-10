@@ -1,0 +1,25 @@
+:root {
+    --cor-fundo-claro: #f0f0f0; /* Cor de fundo padrão (claro) */
+    --cor-texto-escuro: #333; /* Cor do texto padrão (escuro) */
+  }
+  
+  body {
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-escuro);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .theme-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dark-theme {
+    --cor-fundo-claro: #333; /* Cor de fundo no tema escuro */
+    --cor-texto-escuro: #f0f0f0; /* Cor do texto no tema escuro */
+  }
+  

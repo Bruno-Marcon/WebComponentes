@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/WebCompontens/components.js"></script>
+    <link rel="stylesheet" href="/WebCompontens/styles.css">
+    <title>Exemplo de Uso do Componente Customizado</title>
+</head>
+<body>
+    <div>
+        <h1>Crie um Web Component que represente um botao personalizado, com diferentes ˜
+            cores e tamanhos.
+            </h1>
+        <custom-button
+            id="Clique" 
+            text="Clique Aqui" 
+            color="red" 
+            text-color="black" 
+            padding="15px 30px" 
+            font-size="18px"
+            border-radius="5px"
+            border="2px solid black"
+            transition="all 0.3s ease"
+            hover-color="darkgreen">
+        </custom-button>
+        <custom-button
+        id="Clique" 
+        text="Selecionar" 
+        color="Blue" 
+        text-color="White" 
+        padding="50px 60px" 
+        font-size="18px"
+        border-radius="20px"
+        border="4px solid black"
+        transition="all 0.3s ease"
+        hover-color="Yellow">
+    </custom-button>
+    </div>
+    <div>
+        <h1>Crie um Web Component para alterar o tema da pagina (claro/escuro).</h1>
+        <theme-toggle></theme-toggle>
+    </div>
+</body>
+</html>
