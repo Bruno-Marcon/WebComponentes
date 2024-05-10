@@ -1,4 +1,6 @@
-# Documentação do Componente Customizado CustomButton
+# Documentação dos Componentes Customizados 
+
+# CustomButton
 
 O componente CustomButton é uma classe personalizada de botão HTML que pode ser facilmente integrada em qualquer página da web.
 
@@ -23,7 +25,7 @@ border: Define a borda do botão. Por padrão, é "none".
 transition: Define a transição CSS aplicada ao botão. Por padrão, é "background-color 0.3s ease".
 hover-color: Define a cor de fundo do botão ao passar o mouse sobre ele. Se não definido, mantém a cor de fundo original.
 
-Documentação do Componente de Botão de troca de Tema
+# theme-toggle
 
 # Visão Geral
 
