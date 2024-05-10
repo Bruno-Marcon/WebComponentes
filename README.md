@@ -29,7 +29,7 @@ hover-color: Define a cor de fundo do botão ao passar o mouse sobre ele. Se nã
 
 # Visão Geral
 
-O Componente de Botão de Alternância de Tema é um elemento personalizado que permite ao usuário alternar entre temas claro e escuro em uma página da web. Ele é implementado como um Web Component e pode ser facilmente integrado em qualquer página HTML.
+O Componente de Botão de Alternância de Tema é um elemento personalizado que permite ao usuário alternar entre temas claro e escuro em uma página da web. Ele é implementado como um Web Component.
 
 # Utilização do Componente
 
